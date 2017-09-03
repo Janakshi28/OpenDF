@@ -18,7 +18,7 @@ export default [
       _shouldRender:false
    },
    {  
-      title:"Chapter 1: Preamble",
+      title:"Downloads",
       depth:1,
       parentIndex:0,
       children:[  
@@ -38,10 +38,10 @@ export default [
          }
       },
       _shouldRender:true,
-      _primaryText:"Chapter 1: Preamble"
+      _primaryText:"Downloads"
    },
    {  
-      title:"What is Functional Programming",
+      title:"React Tutorial",
       depth:2,
       children:[  
          3,
@@ -61,14 +61,14 @@ export default [
          }
       },
       _shouldRender:false,
-      _primaryText:"What is Functional Programming"
+      _primaryText:"React Tutorial"
    },
    {  
-      title:"Pure Functions",
+      title:"Redux-saga Getting Started",
       depth:3,
       parentIndex:2,
       disabled:false,
-      content:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis pretium massa. Aliquam erat volutpat. Nulla facilisi. Donec vulputate interdum sollicitudin. Nunc lacinia auctor quam sed pellentesque. Aliquam dui mauris, mattis quis lacus id, pellentesque lobortis odio.",
+      content:"Redux-saga is a redux middleware library, that is designed to make handling side effects in your redux app nice and simple. It achieves this by leveraging an ES6 feature called Generators, allowing us to write asynchronous code that looks synchronous, and is very easy to test.",
       _styles:{  
          root:{  
             paddingLeft:32,
@@ -81,14 +81,14 @@ export default [
          }
       },
       _shouldRender:false,
-      _primaryText:"Pure Functions"
+      _primaryText:"Redux-saga Getting Started"
    },
    {  
-      title:"Composing Functions",
+      title:"Git Tutorial",
       depth:3,
       parentIndex:2,
       disabled:false,
-      content:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis pretium massa. Aliquam erat volutpat. Nulla facilisi. Donec vulputate interdum sollicitudin. Nunc lacinia auctor quam sed pellentesque. Aliquam dui mauris, mattis quis lacus id, pellentesque lobortis odio.",
+      content:"Git is currently the most popular implementation of a distributed version control system. Git originates from the Linux kernel development and was founded in 2005 by Linus Torvalds. Nowadays it is used by many popular open source projects, e.g., the Android or the Eclipse developer teams, as well as many commercial organizations.The core of Git was originally written in the programming language _C, but Git has also been re-implemented in other languages, e.g., Java, Ruby and Python.",
       _styles:{  
          root:{ 
             paddingLeft:32,
@@ -101,10 +101,10 @@ export default [
          }
       },
       _shouldRender:false,
-      _primaryText:"Composing Functions"
+      _primaryText:"Git Tutorial"
    },
    {  
-      title:"Functional JavaScript",
+      title:"Testing React Apps",
       depth:2,
       children:[  
          6,
@@ -124,14 +124,14 @@ export default [
          }
       },
       _shouldRender:false,
-      _primaryText:"Functional JavaScript"
+      _primaryText:"Testing React Apps"
    },
    {  
-      title:"JavaScript Array Methods",
+      title:"React-boilerplate",
       depth:3,
       parentIndex:5,
       disabled:false,
-      content:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis pretium massa. Aliquam erat volutpat. Nulla facilisi. Donec vulputate interdum sollicitudin. Nunc lacinia auctor quam sed pellentesque. Aliquam dui mauris, mattis quis lacus id, pellentesque lobortis odio.",
+      content:"React is a front-end library developed by Facebook. It is used for handling the view layer for web and mobile apps. ReactJS allows us to create reusable UI components. It is currently one of the most popular JavaScript libraries and has a strong foundation and large community behind it.",
       _styles:{  
          root:{  
             "paddingLeft":32,
@@ -144,14 +144,14 @@ export default [
          }
       },
       _shouldRender:false,
-      _primaryText:"JavaScript Array Methods"
+      _primaryText:"React-boilerplate"
    },
    {  
-      title:"Introduction to Ramda",
+      title:"Introduction to J2EE",
       depth:3,
       parentIndex:5,
       disabled:false,
-      content:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis pretium massa. Aliquam erat volutpat. Nulla facilisi. Donec vulputate interdum sollicitudin. Nunc lacinia auctor quam sed pellentesque. Aliquam dui mauris, mattis quis lacus id, pellentesque lobortis odio.",
+      content:"React is a front-end library developed by Facebook. It is used for handling the view layer for web and mobile apps. ReactJS allows us to create reusable UI components. It is currently one of the most popular JavaScript libraries and has a strong foundation and large community behind it.",
       _styles:{  
          root:{  
             paddingLeft:32,
@@ -164,10 +164,10 @@ export default [
          }
       },
       _shouldRender:false,
-      _primaryText:"Introduction to Ramda"
+      _primaryText:"Introduction to J2EE"
    },
    {  
-      title:"Chapter 2: React",
+      title:"Documents",
       depth:1,
       parentIndex:0,
       disabled:false,
@@ -187,7 +187,7 @@ export default [
          }
       },
       _shouldRender:true,
-      _primaryText:"Chapter 2: React"
+      _primaryText:"Documents"
    },
    {  
       title:"Introduction to React",
@@ -217,7 +217,7 @@ export default [
       depth:3,
       parentIndex:9,
       disabled:false,
-      content:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis pretium massa. Aliquam erat volutpat. Nulla facilisi. Donec vulputate interdum sollicitudin. Nunc lacinia auctor quam sed pellentesque. Aliquam dui mauris, mattis quis lacus id, pellentesque lobortis odio.",
+      content:"React is a front-end library developed by Facebook. It is used for handling the view layer for web and mobile apps. ReactJS allows us to create reusable UI components. It is currently one of the most popular JavaScript libraries and has a strong foundation and large community behind it.",
       _styles:{  
          root:{  
             paddingLeft:32,
@@ -237,7 +237,7 @@ export default [
       depth:3,
       parentIndex:9,
       disabled:false,
-      content:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis pretium massa. Aliquam erat volutpat. Nulla facilisi. Donec vulputate interdum sollicitudin. Nunc lacinia auctor quam sed pellentesque. Aliquam dui mauris, mattis quis lacus id, pellentesque lobortis odio.",
+      content:"React is a front-end library developed by Facebook. It is used for handling the view layer for web and mobile apps. ReactJS allows us to create reusable UI components. It is currently one of the most popular JavaScript libraries and has a strong foundation and large community behind it.",
       _styles:{  
          root:{  
             paddingLeft:32,
@@ -280,7 +280,7 @@ export default [
       parentIndex:12,
       depth:3,
       disabled:true,
-      content:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis pretium massa. Aliquam erat volutpat. Nulla facilisi. Donec vulputate interdum sollicitudin. Nunc lacinia auctor quam sed pellentesque. Aliquam dui mauris, mattis quis lacus id, pellentesque lobortis odio.",
+      content:"React is a front-end library developed by Facebook. It is used for handling the view layer for web and mobile apps. ReactJS allows us to create reusable UI components. It is currently one of the most popular JavaScript libraries and has a strong foundation and large community behind it.",
       _styles:{  
          root:{  
             paddingLeft:32,
@@ -300,7 +300,7 @@ export default [
       parentIndex:12,
       depth:3,
       disabled:true,
-      content:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis pretium massa. Aliquam erat volutpat. Nulla facilisi. Donec vulputate interdum sollicitudin. Nunc lacinia auctor quam sed pellentesque. Aliquam dui mauris, mattis quis lacus id, pellentesque lobortis odio.",
+      content:"React is a front-end library developed by Facebook. It is used for handling the view layer for web and mobile apps. ReactJS allows us to create reusable UI components. It is currently one of the most popular JavaScript libraries and has a strong foundation and large community behind it.",
       _styles:{  
          root:{  
             paddingLeft:32,
