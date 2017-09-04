@@ -30,12 +30,9 @@ class FileBrowser extends Component {
 
     const firstFile = files[0]
 
-    const listItemIsEnabled = listItems.map((listItem, i) =>  ( i >= 12 ))
-
     this.state = {
       expandedListItems: [],
       activeListItem: firstFile,
-      listItemIsEnabled,
       listItems,
       searchTerm: '',
       isUsingMuiTheme: true
@@ -127,7 +124,7 @@ class FileBrowser extends Component {
   }
 
   render() {
-    const {listItems, listItemIsEnabled, expandedListItems, activeListItem, searchTerm} = this.state
+    const {listItems, expandedListItems, activeListItem, searchTerm} = this.state
 
   const icons = {
     leftIconCollapsed: <i style={{height: 16, width: 16, color: '#CCCCCC'}} className="fa fa-caret-right" />,
@@ -141,7 +138,6 @@ class FileBrowser extends Component {
               contentKey={'title'}
               useFolderIcons={true}
               haveSearchbar={true}
-              listItemIsEnabled={listItemIsEnabled}
               expandedListItems={expandedListItems}
               activeListItem={activeListItem}
               handleTouchTap={this.handleTouchTap}
