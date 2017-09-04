@@ -6,7 +6,7 @@ export default [
       ]
    },
    {  
-      title:"Downloads",
+      fileName:"Downloads",
       depth:1,
       parentIndex:0,
       children:[  
@@ -17,7 +17,7 @@ export default [
       _primaryText:"Downloads"
    },
    {  
-      title:"React Tutorial",
+      fileName:"React Tutorial",
       depth:2,
       children:[  
          3,
@@ -28,7 +28,7 @@ export default [
       _primaryText:"React Tutorial"
    },
    {  
-      title:"Redux-saga Getting Started",
+      fileName:"Redux-saga Getting Started",
       depth:3,
       parentIndex:2,
       disabled:false,
@@ -36,7 +36,7 @@ export default [
       _primaryText:"Redux-saga Getting Started"
    },
    {  
-      title:"Git Tutorial",
+      fileName:"Git Tutorial",
       depth:3,
       parentIndex:2,
       disabled:false,
@@ -44,7 +44,7 @@ export default [
       _primaryText:"Git Tutorial"
    },
    {  
-      title:"Testing React Apps",
+      fileName:"Testing React Apps",
       depth:2,
       children:[  
          6,
@@ -55,7 +55,7 @@ export default [
       _primaryText:"Testing React Apps"
    },
    {  
-      title:"React-boilerplate",
+      fileName:"React-boilerplate",
       depth:3,
       parentIndex:5,
       disabled:false,
@@ -63,7 +63,7 @@ export default [
       _primaryText:"React-boilerplate"
    },
    {  
-      title:"Introduction to J2EE",
+      fileName:"Introduction to J2EE",
       depth:3,
       parentIndex:5,
       disabled:false,
@@ -71,7 +71,7 @@ export default [
       _primaryText:"Introduction to J2EE"
    },
    {  
-      title:"Documents",
+      fileName:"Documents",
       depth:1,
       parentIndex:0,
       disabled:false,
@@ -82,7 +82,7 @@ export default [
       _primaryText:"Documents"
    },
    {  
-      title:"Introduction to React",
+      fileName:"Introduction to React",
       depth:2,
       parentIndex:8,
       disabled:false,
@@ -93,7 +93,7 @@ export default [
       _primaryText:"Introduction to React"
    },
    {  
-      title:"Writing React Components",
+      fileName:"Writing React Components",
       depth:3,
       parentIndex:9,
       disabled:false,
@@ -101,7 +101,7 @@ export default [
       _primaryText:"Writing React Components"
    },
    {  
-      title:"Composing React Components",
+      fileName:"Composing React Components",
       depth:3,
       parentIndex:9,
       disabled:false,
@@ -109,7 +109,7 @@ export default [
       _primaryText:"Composing React Components"
    },
    {  
-      title:"React Components",
+      fileName:"React Components",
       depth:2,
       parentIndex:8,
       disabled:true,
@@ -120,7 +120,7 @@ export default [
       _primaryText:"React Components"
    },
    {  
-      title:"Props and State in React",
+      fileName:"Props and State in React",
       parentIndex:12,
       depth:3,
       disabled:true,
@@ -128,7 +128,7 @@ export default [
       _primaryText:"Props and State in React"
    },
    {  
-      title:"Component Lifecycle",
+      fileName:"Component Lifecycle",
       parentIndex:12,
       depth:3,
       disabled:true,

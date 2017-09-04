@@ -135,7 +135,7 @@ class FileBrowser extends Component {
     treeListJSX = (
             <MuiTreeList 
               listItems={listItems}
-              contentKey={'title'}
+              contentKey={'fileName'}
               useFolderIcons={true}
               haveSearchbar={true}
               expandedListItems={expandedListItems}
@@ -176,7 +176,7 @@ class FileBrowser extends Component {
               </div>
               <Card
                 style={{marginTop: 20}}>
-                <CardTitle title={listItems[activeListItem].title} />
+                <CardTitle fileName={listItems[activeListItem].fileName} />
                 <CardText>
                   {listItems[activeListItem].content}
                 </CardText>
