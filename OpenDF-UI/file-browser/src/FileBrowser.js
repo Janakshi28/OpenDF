@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component , PropTypes} from 'react';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
 import Drawer from 'material-ui/Drawer'
 import Subheader from 'material-ui/Subheader'
@@ -6,12 +6,11 @@ import RaisedButton from 'material-ui/RaisedButton'
 import SelectField from 'material-ui/SelectField'
 import MenuItem from 'material-ui/MenuItem'
 import {Card, CardTitle, CardText} from 'material-ui/Card'
-import MuiTreeList from './MuiTreeList'
-import TreeList from './TreeList'
+import {MuiTreeList} from 'react-treeview-mui'
+import {TreeList} from 'react-treeview-mui'
 import listItems from './assets/listItems'
 import injectTapEventPlugin from 'react-tap-event-plugin'
-import logo from './logo.svg';
-import './App.css';
+import './FileBrowser.css';
 
 injectTapEventPlugin()
 
@@ -25,19 +24,13 @@ const files = listItems
   })
   .filter((listItemIndex) => !!listItemIndex)
 
-class App extends Component {
+class FileBrowser extends Component {
   constructor(props) {
     super(props)
 
     const firstFile = files[0]
 
-    const listItemIsEnabled = listItems.map((listItem, i) => {
-      if (i >= 12) {
-      return false
-      } else {
-      return true
-      }
-    })
+    const listItemIsEnabled = listItems.map((listItem, i) =>  ( i >= 12 ))
 
     this.state = {
       expandedListItems: [],
@@ -142,7 +135,6 @@ class App extends Component {
   }
 
   let treeListJSX
-  if (this.state.isUsingMuiTheme) {
     treeListJSX = (
             <MuiTreeList 
               listItems={listItems}
@@ -159,8 +151,7 @@ class App extends Component {
               >
               <Subheader>OpenDF - File Browser</Subheader>
             </MuiTreeList>      
-    )
-  } 
+    ) 
     return (
       <MuiThemeProvider>
         <div>
@@ -203,7 +194,7 @@ class App extends Component {
 
 }
 
-export default App;
+export default FileBrowser;
 
 function getAllParents(listItem, listItems, parents=[]) {
   if (listItem.parentIndex) {
