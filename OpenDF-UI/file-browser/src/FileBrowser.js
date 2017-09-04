@@ -176,7 +176,7 @@ class FileBrowser extends Component {
               </div>
               <Card
                 style={{marginTop: 20}}>
-                <CardTitle fileName={listItems[activeListItem].fileName} />
+                <CardTitle title={listItems[activeListItem].fileName} />
                 <CardText>
                   {listItems[activeListItem].content}
                 </CardText>
